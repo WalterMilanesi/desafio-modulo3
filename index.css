@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px;
+  padding: 60px;
   height: 86px;
 }
 
@@ -38,6 +38,7 @@
 
 @media (min-width: 769px) {
   .menu {
+    padding: 50px;
     height: 150px;
   }
   .logo {
@@ -50,8 +51,7 @@
   .navegacion {
     justify-content: space-between;
     padding-right: 40px;
-    /* Ver de pasar la propiedad padding al padre */
-    width: 600px;
+    width: 550px;
     display: flex;
   }
   .subpagina {
@@ -64,8 +64,6 @@
 .bienvenida {
   display: flex;
   flex-flow: column;
-  /* align-items: center; */
-  /* Este align item voy a tener que pensar si lo quiero o no. Hace que la imgen crezca o no según el tamaño de la pantalla */
 }
 .titulo {
   margin: 60px 18px 20px 18px;
@@ -171,6 +169,9 @@
 }
 
 @media (min-width: 769px) {
+  .seccion-servicios {
+    padding: 100px 56px;
+  }
   .seccion-texto {
     padding: 60px auto 110px auto;
   }
